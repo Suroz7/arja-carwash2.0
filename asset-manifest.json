@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/arja-carwash/static/css/main.39c8ddca.css",
+    "main.js": "/arja-carwash/static/js/main.c49aa4fc.js",
+    "static/js/453.cc4aac81.chunk.js": "/arja-carwash/static/js/453.cc4aac81.chunk.js",
+    "static/media/map.png": "/arja-carwash/static/media/map.e07c7d17e077dae82626.png",
+    "static/media/Instagram.svg.png": "/arja-carwash/static/media/Instagram.svg.ac8a9e43e094b82cf8fa.png",
+    "static/media/autopesu.jpg": "/arja-carwash/static/media/autopesu.29aa45fcf28e5c9472d0.jpg",
+    "static/media/Facebook_f_logo_(2021).svg.png": "/arja-carwash/static/media/Facebook_f_logo_(2021).svg.3de22bc3e5c61f073d02.png",
+    "index.html": "/arja-carwash/index.html",
+    "main.39c8ddca.css.map": "/arja-carwash/static/css/main.39c8ddca.css.map",
+    "main.c49aa4fc.js.map": "/arja-carwash/static/js/main.c49aa4fc.js.map",
+    "453.cc4aac81.chunk.js.map": "/arja-carwash/static/js/453.cc4aac81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39c8ddca.css",
+    "static/js/main.c49aa4fc.js"
+  ]
+}
