@@ -1,4 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
+  margin: 0px;
+  
   background-color: rgb(38, 87, 138);
 }
 .hero-section {
@@ -11,7 +17,7 @@ body{
   }
   .whyus{
    
-    height: 100vh;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,8 +77,6 @@ body{
    
     background-color: rgb(38, 87, 138);
     text-align: center;
-    height: 100vh;
-    align-items: center;
    display: flex;
    justify-content: center;
   
@@ -128,9 +132,12 @@ body{
   font-size: 14px;
 }
 section{
-  height: 100vh;
+  
   background-color: rgb(38, 87, 138);
-  height: fit-content;
+  height: min-content;
+  clear: both;
+  
+
 }
 ul{
   color:aliceblue;
@@ -148,4 +155,9 @@ p{
 }
 li{
   margin: 19px 0px;
+}
+.services-head{
+  
+    margin-top: 100px;
+ 
 }

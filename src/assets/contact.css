@@ -1,0 +1,18 @@
+.contact-container{
+    text-align: center;
+    width: 75vw;
+    margin: 0 200px;
+}
+h4{
+    color: aliceblue;
+    margin:0;
+}
+.contact-container h2{
+    margin-bottom: 10px;
+}
+.contact-bottom-line { 
+    font-size: 35px;
+}
+.contact-container p{
+    color: aquamarine;
+}

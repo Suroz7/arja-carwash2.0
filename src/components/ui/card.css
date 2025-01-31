@@ -12,13 +12,13 @@ li{
 .service-card{ 
   background: #1a406c;
 padding: 20px;
-
+margin: 0px 50px;
 border-radius: 50px;
 
 width: 400px;
 ;}
 .service-center {
-  height: 80vh;
+  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -27,7 +27,7 @@ width: 400px;
   
   display: flex;
   flex-direction:column;
-  width: 80vw;
+  
 }
 .service-list{
  display: flex;

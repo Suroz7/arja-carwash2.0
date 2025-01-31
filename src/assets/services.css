@@ -1,0 +1,74 @@
+.container{
+    display: flex;
+    flex-direction: column;
+ 
+    text-align: center;
+    margin: 0 auto;
+}
+.container h3{
+    margin: 80px 300px;
+    color: #fff;
+    font-weight: 1000;
+}
+.contents{
+    display: flex;
+   justify-content:space-evenly;
+}
+.content{
+width: 400px;
+display: flex;
+background-color:rgba(26, 64, 108, 0.57);
+margin: 20px;
+padding: 50px;
+
+}
+.service-item h1{
+   font-size: large;
+    
+    }
+.content p{
+    
+        color: #fff;
+        font-size: 19px;
+        font-weight: 400;
+     
+}
+
+.service{
+    display: flex;
+    
+}
+.service-price div{
+margin: 175px  6px 15px 50px;
+font-size: 25px;
+font-weight: 800;
+color:rgb(42, 248, 179);
+
+}
+
+
+
+.service-price div:nth-child(3n){
+
+    margin-top: 85px;
+}
+.service-price div:nth-child(2n){
+
+    margin-top: 95px;
+}
+.service-price div:nth-child(4n){
+
+    margin-top: 115px;
+}
+.trucks-price div:nth-child(4n){
+     margin-top: 65px;
+}
+.trucks-price div:nth-child(3n){
+    margin-top: 75px ;
+}
+.content-img{
+    width: 120px;
+}
+.service-book-btn {
+    text-align: center;
+  }

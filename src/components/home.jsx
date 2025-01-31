@@ -31,89 +31,85 @@ const services = [
 ];
 
 const Home = () => {
-  return<>
-
-<section className="hero-section">
+  return <div>
+    <section className="hero-section">
       <div className="hero-image">
-        
+
         <img src={autopesu} alt="Clean car being washed" />
       </div>
       <div className="hero-content">
         <h1>Get Your Car Sparkling Clean in Minutes!</h1>
         <p className="tagline">Eco-friendly, fast, and affordable car washes!</p>
         <div className="cta-buttons">
-          <button className="cta-btn">Book Now</button>
-          <button className="cta-btn">View Pricing</button>
+        <Button className='cta-btn' text="Book Now" />
+        
         </div>
       </div>
     </section>
 
-<section className="service-section py-12 px-6 text-center">
-  <div className='service-center'>
-     <div> <h2 className="text-3xl font-bold mb-6">Our Services</h2></div>
-    <div className='service-box'>  <div className="service-list grid md:grid-cols-3 gap-6">
-      {services.map((service, index) => (
-        <Card key={index} service={service}>   
-        </Card>
+    <section className="service-section py-12 px-6 text-center">
+      <div className='service-center'>
+        <div> <h2 className=" services-head text-3xl font-bold mb-6">Our Services</h2></div>
+        <div className='service-box'>  <div className="service-list grid md:grid-cols-3 gap-6">
+          {services.map((service, index) => (
+            <Card key={index} service={service}>
+            </Card>
+
+          )
+          )}
+        </div><Button text="Book Now" /></div></div>
         
-        )
-        )
-        }
-      </div></div>
-      <Button text="Book Now" /></div>
     </section>
 
 
     <section>
 
-<div className='whyus'>
-  <div>
-  <h2>Why choose us?</h2></div>
-  <div>
-    <ul>
-      <li>Fast Service – Get your car washed in 15 minutes.</li>
-      <li>Eco-Friendly Products – Safe for your car & the environment.</li>
-      <li>Affordable Pricing – Best value in town.</li>
-      <li>Satisfaction Guarantee – If you’re not happy, we’ll rewash for free.</li>
-    </ul></div>
-</div>
-
-    </section>
-<section className='findus'>
-  <div>
-  <h2>Find us here</h2></div>
-  <div className='map'>
-<img src={map} />
-</div>
+      <div className='whyus'>
+        <div>
+          <h2>Why choose us?</h2></div>
+        <div>
+          <ul>
+            <li>Fast Service – Get your car washed in 15 minutes.</li>
+            <li>Eco-Friendly Products – Safe for your car & the environment.</li>
+            <li>Affordable Pricing – Best value in town.</li>
+            <li>Satisfaction Guarantee – If you’re not happy, we’ll rewash for free.</li>
+          </ul></div>
+        <Button text="Book Now" /></div>
+    
 </section>
-<div>
-<footer>
-<div class="footer">
-        <div class="social-links">
-            <a href="https://www.facebook.com/profile.php?id=100091911247724" target="_blank"> 
-            <img src={face}/></a>
+  <section className='findus'>
+      <div>
+        <h2>Find us here</h2></div>
+      <div className='map'>
+        <img src={map} />
+      </div>
+    </section>
+    
+    <div>
+      <footer>
+        <div class="footer">
+          <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100091911247724" target="_blank">
+              <img src={face} /></a>
 
-            <a href="https://www.instagram.com/tuupakan_autopesu/" target="_blank"><img src={insta}/></a>
-        </div>
+            <a href="https://www.instagram.com/tuupakan_autopesu/" target="_blank"><img src={insta} /></a>
+          </div>
 
-        <div class="contact-info">
+          <div class="contact-info">
             <p>Tuupakantie 4
             </p>
             <p>Vantaa 01740</p>
             <p>+358400155020</p>
             <p>tuupakanautopesu@gmail.com</p>
-        </div>
+          </div>
 
-        <div class="copyright">
+          <div class="copyright">
             <p>&copy; 2023 Tuupakan Autopesu. All rights reserved.</p>
+          </div>
         </div>
+      </footer>
     </div>
-</footer>
-</div>
-
-    
-        </>
-  ;
+</div>;
 };
 
 export default Home;

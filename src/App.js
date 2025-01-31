@@ -8,6 +8,7 @@ import Contact from './components/contact';
 import Booking from './components/booking';
 import './assets/navbar.css'
 import './assets/home.css'
+import './assets/services.css'
 
 
 
