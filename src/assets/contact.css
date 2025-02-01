@@ -1,7 +1,7 @@
 .contact-container{
     text-align: center;
-    width: 75vw;
-    margin: 0 200px;
+    
+    margin: 0 400px;
 }
 h4{
     color: aliceblue;
@@ -15,4 +15,11 @@ h4{
 }
 .contact-container p{
     color: aquamarine;
+}
+.content-p div {
+    display: none;
+}
+
+.content-p div.visible {
+    display: block;
 }

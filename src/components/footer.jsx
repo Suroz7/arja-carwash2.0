@@ -23,7 +23,7 @@ const footer = () => {
       </div>
 
       <div class="copyright">
-        <p>&copy; 2023 Tuupakan Autopesu. All rights reserved.</p>
+        <h1>&copy; 2023 Tuupakan Autopesu. All rights reserved.</h1>
       </div>
     </div>
   </footer></div>

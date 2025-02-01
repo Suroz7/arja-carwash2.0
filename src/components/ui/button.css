@@ -13,4 +13,28 @@
   .btn:hover {
     background-color: #152b44;
   }
+  .content-P > div {
+    display: none;
+}
+
+.content-P > div.visible {
+    display: block;
+    
+    
+    text-align: center;
+}
+
+.container-P {
+    position: relative;
+    overflow: hidden;
+    margin: 0 320px;
+}
+.content-p img{
+  
+  padding: 10px;
+  text-align: center;
+
+}
+
+
   
