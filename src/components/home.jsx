@@ -7,7 +7,7 @@ import Button from './ui/button'
 import map from '../assets/images/map.png'
 import face from '../assets/images/Facebook_f_logo_(2021).svg.png'
 import insta from '../assets/images/Instagram.svg.png'
-import { CheckCircle, Droplet, Sparkles, ShieldCheck } from "lucide-react";
+import { Droplet, Sparkles, ShieldCheck } from "lucide-react";
 
 const services = [
   {
@@ -81,7 +81,7 @@ const Home = () => {
       <div>
         <h2>Find us here</h2></div>
       <div className='map'>
-        <img src={map} />
+        <img src={map} alt="Map showing location" />
       </div>
     </section>
     
@@ -89,10 +89,10 @@ const Home = () => {
       <footer>
         <div class="footer">
           <div class="social-links">
-            <a href="https://www.facebook.com/profile.php?id=100091911247724" target="_blank">
-              <img src={face} /></a>
+            <a href="https://www.facebook.com/profile.php?id=100091911247724" target="_blank" rel="noreferrer">
+              <img src={face} alt="Facebook logo" /></a>
 
-            <a href="https://www.instagram.com/tuupakan_autopesu/" target="_blank"><img src={insta} /></a>
+            <a href="https://www.instagram.com/tuupakan_autopesu/" target="_blank" rel="noreferrer"><img src={insta} alt="Instagram logo" /></a>
           </div>
 
           <div class="contact-info">

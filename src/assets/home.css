@@ -68,6 +68,7 @@ body{
     color: aquamarine;
     font-size: 90px;
     font-weight: 690;
+    text-align: center;
   }
   
   .cta-btn:hover {
@@ -161,6 +162,100 @@ li{
     margin-top: 100px;
  
 }
-footer div {
-  margin: 0 0 0 0 ;
+
+
+
+.hero-content {
+  margin-top: 20px;
+  width: 90vw;
+      margin: 0 auto;
+}
+
+.cta-buttons {
+  margin-top: 20px;
+}
+
+.service-section {
+  padding: 20px;
+}
+
+.service-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-box {
+  width: 100%;
+}
+
+.service-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin: 20px auto;
+
+}
+
+
+
+.whyus {
+  padding: 20px;
+  text-align: center;
+}
+
+.whyus ul {
+  list-style: none;
+  padding: 0;
+}
+
+.whyus li {
+  margin: 10px 0;
+}
+
+.findus {
+  padding: 20px;
+  text-align: center;
+}
+
+.buttons-P.flex.justify-center.mt-4 {
+  justify-content: center;
+  display: flex;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .service-list {
+      grid-template-columns: repeat(3, 1fr);
+  }
+  .footer {
+      flex-direction: row;
+      justify-content: space-between;
+  }
+.social-links {
+      margin-bottom: 0;
+  }
+.hero-content  {
+      font-size: 2rem;
+      
+      color: aquamarine;
+     
+    }
+   .service-card {
+      background: #1a406c;
+     
+    
+      margin: 10px 50px;
+  
+      width: 400px;
+    
+    
+    }
+    h2{
+        font-size: 50px;
+      }
 }

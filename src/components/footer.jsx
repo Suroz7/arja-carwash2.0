@@ -8,10 +8,10 @@ const footer = () => {
     <div><footer>
     <div class="footer">
       <div class="social-links">
-        <a href="https://www.facebook.com/profile.php?id=100091911247724" target="_blank">
-          <img src={face} /></a>
+        <a href="https://www.facebook.com/profile.php?id=100091911247724" target="_blank" rel="noreferrer">
+          <img src={face} alt="Facebook" /></a>
 
-        <a href="https://www.instagram.com/tuupakan_autopesu/" target="_blank"><img src={insta} /></a>
+        <a href="https://www.instagram.com/tuupakan_autopesu/" target="_blank" rel="noreferrer"><img src={insta} alt="Instagram" /></a>
       </div>
 
       <div class="contact-info">

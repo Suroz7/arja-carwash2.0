@@ -3,7 +3,6 @@ import React from 'react';
 import CardHeader from './cardheader';
 import CardTitle from './cardtitle';
 import CardContent from './cardcontent';
-import Button from './button';
 import { CheckCircle } from 'lucide-react'; // Assuming you're using lucide-react icons
 
 const Card = ({ service, index }) => {

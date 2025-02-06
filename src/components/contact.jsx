@@ -1,22 +1,7 @@
 import React from 'react';
 import '../assets/contact.css';
 import Footer from './footer'
-import img1 from '../assets/images/img1.jpeg'
-import img2 from '../assets/images/img2.jpeg'
-import img3 from '../assets/images/img3.jpeg'
-import img4 from '../assets/images/img4.jpeg'
-import img5 from '../assets/images/img5.jpeg'
-import img6 from '../assets/images/img6.jpeg'
-import img7 from '../assets/images/img7.jpeg'
-import img8 from '../assets/images/img8.jpeg'
-import img9 from '../assets/images/img9.jpeg'
-import img10 from '../assets/images/img10.jpeg'
-import img11 from '../assets/images/img11.jpeg'
-import img12 from '../assets/images/img12.jpeg'
-import img13 from '../assets/images/img13.jpeg'
 import ImageSlider from './ui/imageslider';
-
-
 
 const Contact = () => {
   return<>
@@ -25,7 +10,7 @@ const Contact = () => {
   <h4>
       Tuupakan Autopesu on sitoutunut tarjoamaan ajoneuvollesi sen ansaitsemaa huolenpitoa ja huomiota. Intohimomme autoja ja ympäristöä kohtaan on saanut meidät uudistamaan autopesukokemusta.
   </h4>
-  <p><strong>Meidän Sitoutumisemme:</strong></p>
+  <h2>Meidän Sitoutumisemme:</h2>
   <ul>
       <li>🌿 <em>Ympäristöystävällistä Laatua</em>: Olemme ylpeitä sitoutumisestamme ympäristöön. Korkeatehoiset painepesurimme ja laadukkaat ympäristöystävälliset puhdistusaineemme takaavat moitteettoman kiillon samalla kun säilytämme luonnon kauneuden.</li>
       <li>🛡️ <em>Ei Kompromisseja Laadussa</em>: Ajoneuvosi hyvinvointi on meille ensisijainen tavoite. Taitava tiimimme, viimeisintä huutoa oleva laitteisto ja huippulaatuiset puhdistustuotteemme takaavat korkeimman puhtauden standardin, niin sisältä kuin ulkoa.</li>

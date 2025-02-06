@@ -7,7 +7,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin: 100px 500px;
+    margin: 100px auto;
   }
   
   .btn:hover {
@@ -27,14 +27,35 @@
 .container-P {
     position: relative;
     overflow: hidden;
-    margin: 0 320px;
+    margin: 0 auto;
+    width: 60vw;
 }
 .content-p img{
   
   padding: 10px;
   text-align: center;
-
+ 
+}
+.slider-btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 150px;
+  background-color: #13355cd4;
+  color: white;
+  font-weight: 600;
 }
 
+@media screen and (max-width: 768px) {
 
-  
+.content-p div img {
+    width: 80vw;
+  }
+  img {
+    width: 80vw;
+  }
+  .slider-btn {
+   margin: 5px 5px;
+  }
+
+}

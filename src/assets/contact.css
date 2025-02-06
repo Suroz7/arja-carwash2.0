@@ -1,8 +1,8 @@
 .contact-container{
     text-align: center;
-    
-    margin: 0 400px;
-}
+    margin: 0 auto;
+    padding: 10px;
+  }
 h4{
     color: aliceblue;
     margin:0;
@@ -22,4 +22,12 @@ h4{
 
 .content-p div.visible {
     display: block;
+}
+@media screen and (max-width: 768px) {
+
+    .contact-bottom-line {
+        font-size: 15px;
+      }
+
+
 }

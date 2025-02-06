@@ -20,7 +20,7 @@ const Services = () => {
           <div class="content washcars">
               <div class="service">
                   <div class="washcars details">
-                      000
+                     
                       <div class="service-item-heading">
                           <h1>Henkilöauto</h1>
                           <img src={car} alt="cars" class="content-img car" />

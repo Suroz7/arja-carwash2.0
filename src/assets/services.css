@@ -6,7 +6,7 @@
     margin: 0 auto;
 }
 .container h3{
-    margin: 80px 300px;
+    margin: 80px auto;
     color: #fff;
     font-weight: 1000;
 }
@@ -18,7 +18,7 @@
 width: 400px;
 display: flex;
 background-color:rgba(26, 64, 108, 0.57);
-margin: 20px;
+margin: 20px auto;
 padding: 50px;
 
 }
@@ -71,4 +71,24 @@ color:rgb(42, 248, 179);
 }
 .service-book-btn {
     text-align: center;
+  }
+  @media screen and (max-width: 768px) {
+    .container h3 {
+        color: aquamarine;
+        font-weight: 700;
+        font-size: 30px;
+        width: 80vw;
+        margin: 40px auto;
+    }
+    .content {
+        width: 80vw;
+        margin: 20px auto;
+        padding: 15px;
+      }
+    
+    .contents {
+      
+        flex-direction: column;
+      }
+
   }

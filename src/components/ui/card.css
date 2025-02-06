@@ -1,40 +1,46 @@
-
 ul{
   margin: 0;
   padding: 0;
   list-style: none;
   text-align: center;
-  
 }
 li{
   font-size: 25px;
 }
-.service-card{ 
+.service-card {
   background: #1a406c;
-padding: 20px;
-margin: 0px 50px;
-border-radius: 50px;
-
-width: 400px;
-;}
+  padding-top: 20px;
+  margin: 0px auto;
+  border-radius: 50px;
+  width: 390px;
+  height: 500px;
+}
 .service-center {
-  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .service-box{
-  
   display: flex;
-  flex-direction:column;
-  
+  flex-direction: column;
 }
 .service-list{
- display: flex;
- flex-direction: row;
- justify-content: space-evenly;
+  display: flex;
  
+  justify-content: space-evenly;
 }
+@media screen and (min-width: 768px) {
+  .service-list {
+    flex-direction: row;
+    margin: 0 10px;
+    flex-direction: column;
+    display: flex;
+  }
+  
+  .service-card {
+    margin: 0 10px;
+  }
+
 h3{
   font-size: 45px;
   color:#7fffd48a;
@@ -43,4 +49,4 @@ h3{
 .card-title{
   margin-top: 5px;
 }
-
+}

@@ -12,7 +12,7 @@ import img10 from '../images/img10.jpeg'
 import img11 from '../images/img11.jpeg'
 import img12 from '../images/img12.jpeg'
 import img13 from '../images/img13.jpeg'
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 const ImageSlider = () => {
     const images = [
@@ -33,31 +33,13 @@ const ImageSlider = () => {
 
     const [currentDivIndex, setCurrentDivIndex] = useState(0);
 
-    const handleScroll = (e) => {
-        // Prevent page scroll when scrolling on the image slider
-        e.preventDefault();
-
-        if (e.deltaY < 0) {
-            // Scroll up: show previous image
-            setCurrentDivIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
-        } else {
-            // Scroll down: show next image
-            setCurrentDivIndex((prevIndex) => (prevIndex + 1) % images.length);
-        }
+    const handleNext = () => {
+        setCurrentDivIndex((prevIndex) => (prevIndex + 1) % images.length);
     };
 
-    // Add event listener for wheel scroll
-    useEffect(() => {
-        const container = document.querySelector('.container-P');
-        if (container) {
-            container.addEventListener('wheel', handleScroll, { passive: false });
-        }
-        return () => {
-            if (container) {
-                container.removeEventListener('wheel', handleScroll);
-            }
-        };
-    }, []);
+    const handlePrev = () => {
+        setCurrentDivIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+    };
 
     return (
         <div className="container-P">
@@ -70,6 +52,10 @@ const ImageSlider = () => {
                         <img src={image.src} alt={image.alt} />
                     </div>
                 ))}
+            </div>
+            <div className="buttons-P flex justify-center mt-4">
+                <button className="slider-btn prev-btn mx-2 p-2 bg-blue-500 text-white rounded" onClick={handlePrev}>Previous</button>
+                <button className="slider-btn next-btn mx-2 p-2 bg-blue-500 text-white rounded" onClick={handleNext}>Next</button>
             </div>
         </div>
     );
